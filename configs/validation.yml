@@ -1,0 +1,14 @@
+n_splits: 5
+scoring: recall_macro
+random_state: 42
+
+dataset_types:
+  - raw
+  - balanced
+
+metrics:
+  - accuracy
+  - precision_macro
+  - recall_macro
+  - f1_macro
+  - kappa

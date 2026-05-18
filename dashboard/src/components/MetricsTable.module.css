@@ -1,0 +1,71 @@
+.wrapper {
+  overflow-x: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.table thead tr {
+  background: var(--surface2);
+}
+
+.table th {
+  padding: 12px 14px;
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-muted);
+  font-size: 12px;
+  white-space: nowrap;
+  border-bottom: 1px solid var(--border);
+}
+
+.table tbody tr {
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  transition: background 0.12s;
+}
+
+.table tbody tr:hover { background: var(--surface2); }
+.table tbody tr.active { background: rgba(56, 189, 248, 0.08); }
+.table tbody tr.best { background: rgba(52, 211, 153, 0.05); }
+
+.table td {
+  padding: 11px 14px;
+  white-space: nowrap;
+}
+
+.modelName { text-transform: capitalize; font-weight: 500; }
+
+.bestBadge {
+  font-size: 10px;
+  background: rgba(52, 211, 153, 0.15);
+  color: var(--accent3);
+  border: 1px solid var(--accent3);
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 6px;
+  font-weight: 700;
+}
+
+.typeBadge {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.typeBadge.balanced {
+  background: rgba(129, 140, 248, 0.15);
+  color: var(--accent2);
+}
+
+.typeBadge.raw {
+  background: rgba(148, 163, 184, 0.1);
+  color: var(--text-muted);
+}

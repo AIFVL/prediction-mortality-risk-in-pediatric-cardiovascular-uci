@@ -1,0 +1,37 @@
+target_column: Mortalidad
+preprocess_mode: notebook_v1
+random_state: 42
+processed_dir: data/processed
+
+drop_columns:
+  - EPISODIO
+  - "Nº documento"
+  - NOMBRE
+  - "Descripción Aseguradora"
+  - "Clase de Aseguradora"
+  - "MORTALIDAD A 30 DÍAS"
+
+mortality_binary_map:
+  "no murio": 0
+  "no murió": 0
+  "murio": 1
+  "murió": 1
+  "murio (>30d)": 1
+  "murió (>30d)": 1
+  "murio (<30d)": 1
+  "murió (<30d)": 1
+  "murió en los primeros 30 dias": 1
+  "murio en los primeros 30 dias": 1
+  "murió despues de 30 dias": 1
+  "murio despues de 30 dias": 1
+
+numeric_coerce_columns:
+  - Peso
+  - Talla
+  - IMC
+
+zero_fill_columns:
+  - "Paro Circulatorio Hora Total"
+  - "Isquemia Hora Total"
+
+imc_max_valid: 100

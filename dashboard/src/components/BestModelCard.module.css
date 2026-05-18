@@ -1,0 +1,93 @@
+.card {
+  margin-top: 28px;
+  background: linear-gradient(135deg, #0f2744 0%, #1a3a5c 50%, #132640 100%);
+  border: 1px solid #38bdf866;
+  border-radius: var(--radius);
+  padding: 24px 28px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent), var(--accent2), var(--accent3));
+}
+
+.crown { font-size: 40px; flex-shrink: 0; }
+
+.content { flex: 1; }
+
+.top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.tag {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent);
+  margin-bottom: 4px;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--text);
+}
+
+.type {
+  font-size: 11px;
+  background: var(--accent2);
+  color: #0f172a;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 700;
+  margin-top: 4px;
+  display: inline-block;
+}
+
+.metrics {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.metricValue {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.metricLabel {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.description {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}

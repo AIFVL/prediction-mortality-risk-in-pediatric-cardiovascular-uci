@@ -1,0 +1,18 @@
+random_state: 42
+
+dataset_types:
+  - raw
+  - balanced
+
+use_gridsearch: false
+scoring: recall_macro
+cv_folds: 3
+
+output_dir: data/results
+
+models:
+  - logistic_regression
+  - random_forest
+  - svm
+  - xgboost
+  - decision_tree
