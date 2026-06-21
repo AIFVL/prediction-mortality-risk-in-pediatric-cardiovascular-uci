@@ -24,7 +24,7 @@ La aplicación de modelos de inteligencia artificial permitiría mejorar la estr
 ## 2. Objetivos
 
 ### 2.1 Objetivo General
-Desarrollar un modelo predictivo de inteligencia artificial para estimar el riesgo de mortalidad postoperatoria en pacientes pediátricos con cardiopatías congénitas en la UCI de la Fundación Valle del Lili, con el fin de optimizar la clasificación del riesgo y agilizar la toma de decisiones por parte del personal especializado.
+Desarrollar un modelo predictivo de inteligencia artificial para estimar el riesgo de mortalidad postoperatoria en pacientes pediátricos con cardiopatías congénitas en la UCI de la Fundación Valle del Lili.
 
 ### 2.2 Objetivos Específicos
 *    Estandarizar la base de datos histórica institucional mediante procesos de limpieza y depuración clínica que garantizando al menos un 90% de integridad de los registros analizados. 
