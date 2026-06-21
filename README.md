@@ -27,15 +27,23 @@ La aplicación de modelos de inteligencia artificial permitiría mejorar la estr
 Desarrollar un modelo predictivo de inteligencia artificial para estimar el riesgo de mortalidad postoperatoria en pacientes pediátricos con cardiopatías congénitas en la UCI de la Fundación Valle del Lili, con el fin de optimizar la clasificación del riesgo y agilizar la toma de decisiones por parte del personal especializado.
 
 ### 2.2 Objetivos Específicos
-*   Recolectar y depurar la base de datos histórica de la Fundación Valle del Lili, eliminando registros incompletos y estandarizando variables clínicas.
-*   Seleccionar y definir las variables relevantes para el pronóstico de mortalidad postoperatoria en colaboración con especialistas clínicos.
-*   Diseñar e implementar el modelo de inteligencia artificial utilizando técnicas de aprendizaje automático, asegurando su reproducibilidad y documentación.
-*   Evaluar y validar el desempeño del modelo predictivo frente a escalas tradicionales como RACHS-1.
-*   Desarrollar un dashboard interactivo que permita visualizar los resultados del modelo y facilitar la interpretación de los indicadores de riesgo.
+*    Estandarizar la base de datos histórica institucional mediante procesos de limpieza y depuración clínica que garantizando al menos un 90% de integridad de los registros analizados. 
+*    Identificar las variables relevantes para el pronóstico de mortalidad postoperatoria en colaboración con especialistas clínicos. 
+*    Construir el modelo predictivo utilizando técnicas de aprendizaje automático, asegurando su reproducibilidad, documentación y capacidad de adaptación a diferentes escenarios clínicos. 
+*    Validar el desempeño del modelo predictivo frente a la escala RACHS-1, mediante diferentes métricas de clasificación, y ajustándolo con base en la retroalimentación de los especialistas clínicos. 
+*    Desarrollar un dashboard interactivo para la visualización de los resultados del modelo y la interpretación de indicadores de riesgo que apoye la toma de decisiones en tiempo real. 
 
 ---
 
-## 3. Índice de Documentación
+## 3. Uso de Inteligencia Artificial Generativa
+
+Este proyecto integró herramientas de IAG de manera ética y supervisada como soporte exclusivo al proceso de desarrollo técnico y experimentación:
+
+**Asistencia en Desarrollo y Notebooks:** Se utilizó GitHub Copilot como asistente fundamental en la escritura, depuración y optimización del código fuente. Este apoyo fue clave tanto en la construcción de los notebooks de experimentación como en la implementación del pipeline analítico y el dashboard interactivo.
+
+**Lógica y Arquitectura:** Es imperativo precisar que la organización estructural del dashboard, las propuestas de lógica de negocio y el ensamblaje del código entre los distintos componentes necesarios para garantizar la completitud del sistema fueron definidos y supervisados enteramente por los autores.
+
+## 4. Índice de Documentación
 
 Explore los siguientes documentos para entender a fondo la estructura y operación del proyecto:
 
